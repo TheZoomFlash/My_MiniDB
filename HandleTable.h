@@ -4,4 +4,5 @@
 void createTable(string tableName, vector<fieldType> field);
 void dropTable(string tableName);
 void addField(string tableName, fieldType newField);
+void cancaleField(string tableName, fieldType newField);
 #endif
