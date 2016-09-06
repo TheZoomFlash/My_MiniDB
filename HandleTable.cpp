@@ -15,3 +15,9 @@ void addField(string tableName, fieldType newField)
 	table a;
 	saveTable(a);
 }
+void cancelField(string tableName,fieldType oldField)
+{
+    openTable(tableName);
+    table a;
+    saveTable(a);
+}
